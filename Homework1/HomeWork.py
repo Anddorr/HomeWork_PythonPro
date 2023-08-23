@@ -6,7 +6,7 @@ dictionary = {
 }
 
 
-logging.basicConfig(filename='my_logs_h1.log', filemode='w', level=logging.DEBUG,
+logging.basicConfig(filename='../my_logs_h1.log', filemode='w', level=logging.DEBUG,
                     format='%(name)s %(levelname)s %(process)d %(asctime)s %(message)s')
 
 
